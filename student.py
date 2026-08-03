@@ -1,9 +1,9 @@
-# from person import Person ##繼承person的函式
-# class Student(Person):
-#     def __init__(self,name,age,school):
-#         self.name = name
-#         self.age = age
-#         self.school = school
+from person import Person ##繼承person的函式
+class Student(Person):
+    def __init__(self,name,age,school):
+        self.name = name
+        self.age = age
+        self.school = school
 
-#     def print_school(self):
-#         print(self.school)
+    def print_school(self):
+        print(self.school)
